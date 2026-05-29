@@ -1,0 +1,18 @@
+import Link from "next/link";
+ export default function Navbar(){
+
+    return(
+        
+        <nav>
+            <Link href="/"> Home</Link>
+            <Link href="/Contact"> Contact </Link>
+            <Link href="/About">About</Link>
+             </nav>
+        
+
+
+    )
+
+
+
+}
